@@ -1,0 +1,94 @@
+.mom {
+  width: 600px;
+  height: 400px;
+  border: 1px solid gray;
+  margin: 50px;
+  position: relative;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+}
+
+
+.ex-1 {
+  display: flex;
+  justify-content: end;
+}
+.ex-1 .first {
+  position: absolute;
+  left: 0;
+}
+.ex-1 .second {
+  margin-right: 5px;
+}
+
+
+.ex-2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.ex-2 .first{
+  align-self: flex-start;
+}
+.ex-2 .third {
+  align-self: flex-end;
+}
+
+
+.ex-3 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.ex-3 .first {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.ex-3 .second {
+  position: absolute;
+}
+
+
+.ex-4 .first {
+  position: relative;
+}
+.ex-4 .second {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: pink;
+}
+
+
+.ex-5 {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.ex-5 .first {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  background-color: pink;
+  width: 350px;
+  height: 150px;
+}
+.ex-5 .second {
+  position: absolute;
+  bottom: 0;
+}
+.ex-5 .third {
+  align-self: flex-end;
+}
